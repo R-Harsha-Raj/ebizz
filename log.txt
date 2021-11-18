@@ -1,1 +1,12 @@
 16/11/2021<17:40>---->1:44:16
+
+---------------------------------------------------->
+18/11/2021
+- >> userController.js
+-- update user profile working without name, check this part of code if 
+	problem occur from this part.
+	*updation in db is working fine.
+	   ---------xxx----------
+->> Reviews
+  -- continue from reviews.
+  -- timestamp : 3:47:24

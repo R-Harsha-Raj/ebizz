@@ -14,14 +14,15 @@ router.route("/products").get(getAllProducts);
 
 // route to create a product
 router
-  .route("/product/new")
+  .route("/admin/product/new")
   .post(isAuthenticatedUser, authorizedRoles("admin"), createProduct);
 
 // route to update a product
 router
-  .route("/product/:id")
+  .route("/admin/product/:id")
   .put(isAuthenticatedUser, authorizedRoles("admin"), updateProduct)
-  .delete(isAuthenticatedUser, authorizedRoles("admin"), deleteProduct)
-  .get(getProductDetails);
+  .delete(isAuthenticatedUser, authorizedRoles("admin"), deleteProduct);
+
+router.route("/product/:id").get(getProductDetails);
 
 module.exports = router;
