@@ -10,3 +10,13 @@
 ->> Reviews
   -- continue from reviews.
   -- timestamp : 3:47:24
+
+
+--------------------------------------------------------->
+26/11/2021
+-- All backend Function working properly
+-- Need to payment integration through stripe
+-- cloudinary image uploads.
+
+>> Frontend Started
+	At 4:45:57
